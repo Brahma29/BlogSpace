@@ -1,0 +1,103 @@
+html {
+  font-size: 62.5%;
+}
+
+.article-wrapper {
+  width: 90%;
+  margin: auto;
+  padding: 3rem 0;
+}
+
+.art-img {
+  width: 70%;
+}
+
+.art-img img {
+  width: 100%;
+}
+
+.article .title {
+  font-size: calc(0.3rem + 1vw);
+  height: 12rem;
+  padding: 2rem 0;
+  border: none;
+}
+
+.author-details {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+.author-details .date {
+  font-size: 1.2rem;
+  padding: 0 2rem;
+}
+
+.article-text {
+  width: 70%;
+  padding: 2rem 0;
+  font-size: calc(0.8rem + 1vw);
+}
+
+.review {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+.review h3 {
+  font-size: calc(2.2rem + 1vw);
+  padding: 2rem 0;
+}
+
+.review textarea {
+  width: 100%;
+  height: 10rem;
+  overflow: scroll;
+  font-size: 1.6rem;
+}
+
+.review textarea::-webkit-scrollbar {
+  display: none;
+}
+.post-btn {
+  padding: 2rem 0;
+}
+
+.post-btn button {
+  padding: 1rem 4rem;
+  background: blue;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+.user-details {
+  display: flex;
+  font-size: 2rem;
+}
+
+.user-name {
+  padding: 0 1rem;
+}
+
+.posted-review {
+  font-size: 1.5rem;
+  padding: 0.4rem 4rem;
+}
+
+@media screen and (max-width: 950px) {
+  .article-text {
+    width: 100%;
+    font-size: 1.9rem;
+  }
+
+  .article .title {
+    font-size: 2rem;
+    height: 20rem;
+  }
+
+  .review {
+    width: 80%;
+  }
+}

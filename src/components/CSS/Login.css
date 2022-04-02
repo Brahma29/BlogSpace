@@ -1,0 +1,73 @@
+html{
+    font-size: 62.5%;
+}
+
+.login-wrapper{
+    height: 90vh;
+    display: grid;
+    place-items: center;
+}
+
+.login-card{
+    padding: 2rem;
+}
+
+.login-form .login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login .field{
+    padding: 2rem 0;
+}
+
+.field input{
+    padding: 1rem 4rem;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+
+.field input:focus{
+    border-bottom: 3px solid blue;
+    outline: none;
+}
+
+.signup-btn{
+    padding: 1rem 0;
+}
+
+.submit-btn button{
+    padding: 1rem 6rem;
+    background: blue;
+    border: none;
+    color: white;
+    font-weight: bold;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.submit-btn button:hover{
+    border: 1px solid blue;
+    background: white;
+    color: blue;
+}
+
+.signup-btn{
+    font-size: 1.8rem;
+}
+
+.signup-btn a{
+    color: blue;
+}
+
+@media screen and (max-width: 935px) {
+    .field input{
+        border-radius: 4px;
+        font-size: 2rem;
+        border: 1px solid black;
+    }
+    .submit-btn button{
+        font-size: 2rem;
+    }
+}

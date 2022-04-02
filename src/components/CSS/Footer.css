@@ -1,0 +1,12 @@
+.footer-wrapper{
+    height: 20vh;
+    background: blue;
+    color: white;
+    font-size: 2rem;
+}
+
+.footer{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}

@@ -1,0 +1,14 @@
+.spinner {
+  min-height: 100vh;
+  background: rgb(247, 241, 241);
+  display: grid;
+  place-items: center;
+}
+
+.gif-div {
+  width: 300px;
+}
+
+.gif-div img {
+  width: 100%;
+}
